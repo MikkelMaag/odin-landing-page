@@ -37,12 +37,13 @@ ul {
     display: flex;
     justify-content: center;
     padding: 80px;
+    gap: 30px;
 }
 
 .hero-left {
     display: flex;
     flex-direction: column;
-    flex-basis: 400px
+    flex-basis: 450px
 }
 
 .hero-title {
@@ -71,8 +72,6 @@ ul {
 }
 
 .hero-image {
-
-    height: 200px;
+    height: 300px;
     width: auto;
-
 }
