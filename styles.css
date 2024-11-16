@@ -89,6 +89,9 @@ ul {
     flex-shrink: 0;
     flex-basis: 300px;
     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .quote-section {
@@ -120,7 +123,31 @@ ul {
     font-weight: 700;
 }
 
+.call-to-action-box {
+    background-color: #3882f6;
+    flex-basis: 700px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    border-radius: 8px;
+}
+
+.call-to-action-title {
+    font-size: 24px;
+}
+
+.call-to-action-box .sign-up-button {
+    border-style: solid;
+    border-width: 1px;
+    border-color: aliceblue;
+    align-self: center;
+
+}
+
 
 .footer {
     height: 50px;
+
 }
