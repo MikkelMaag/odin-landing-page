@@ -5,19 +5,23 @@
     font-family: 'Roboto', 'Arial', sans-serif;
 }
 
-.header {
-    height: 60px;
+.header,
+.hero {
     background-color: #1f2937;
     color: white;
+}
+
+.header {
+    height: 60px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 .header-logo {
-    font-weight: 800;
+    font-size: 24px;
+    color: #F9FAF8;
 }
-
 
 ul {
     list-style: none;
@@ -25,7 +29,50 @@ ul {
     gap: 24px;
 }
 
-a {
+.header-link {
     text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 400px
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-subtext {
+    margin-bottom: 10px;
+}
+
+.hero-subtext,
+.header-link {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up-button {
+    background-color: #3882f6;
     color: white;
+    padding: 5px 20px;
+    align-self: flex-start;
+    border-radius: 8px;
+    border: none
+}
+
+.hero-image {
+
+    height: 200px;
+    width: auto;
+
 }
