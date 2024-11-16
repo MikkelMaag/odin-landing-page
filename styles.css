@@ -5,8 +5,15 @@
     font-family: 'Roboto', 'Arial', sans-serif;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
 .header,
-.hero {
+.hero,
+.footer {
     background-color: #1f2937;
     color: white;
 }
@@ -74,4 +81,22 @@ ul {
 .hero-image {
     height: 300px;
     width: auto;
+}
+
+.information-section,
+.call-to-action-section {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 300px;
+    background-color: white;
+}
+
+.quote-section {
+    flex-basis: 300px;
+    flex-shrink: 0;
+    background-color: #E5E7EB;
+}
+
+.footer {
+    height: 50px;
 }
